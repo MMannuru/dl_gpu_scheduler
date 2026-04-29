@@ -9,7 +9,7 @@ import heapq
 import numpy as np
 from typing import Optional
 
-from models import (
+from simulator.models import (
     Event,
     EventType,
     Job,
@@ -17,7 +17,7 @@ from models import (
     Cluster,
     SimulationMetrics,
 )
-from scheduler_interface import SchedulerInterface
+from simulator.scheduler_interface import SchedulerInterface
 
 
 class Simulator:

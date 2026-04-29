@@ -7,7 +7,7 @@ from __future__ import annotations
 import abc
 from typing import Optional
 
-from models import Job, Cluster
+from simulator.models import Job, Cluster
 
 
 class SchedulerInterface(abc.ABC):

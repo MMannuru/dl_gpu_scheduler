@@ -8,7 +8,7 @@ import csv
 import io
 import numpy as np
 from typing import Optional
-from models import Job
+from simulator.models import Job
 
 def _estimate_memory_gb(model_size: float, batch_size: int, seq_len: int) -> float:
     weights_mem = model_size

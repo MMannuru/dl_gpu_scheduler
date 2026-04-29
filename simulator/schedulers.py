@@ -4,8 +4,8 @@ Heuristic scheduling policies: FIFO and Shortest Job First (SJF).
 
 from __future__ import annotations
 
-from models import Job, Cluster
-from scheduler_interface import SchedulerInterface
+from simulator.models import Job, Cluster
+from simulator.scheduler_interface import SchedulerInterface
 
 def _greedy_assign(
     queue: list[Job],
